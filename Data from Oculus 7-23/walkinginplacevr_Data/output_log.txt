@@ -1,0 +1,26 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+[VRDevice] Successfully created device oculus.
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\group 4\walkinginplacevr_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.137 seconds
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
