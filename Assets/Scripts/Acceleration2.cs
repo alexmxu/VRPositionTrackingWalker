@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System;
 
-public class Acceleration : MonoBehaviour {
+public class Acceleration2 : MonoBehaviour {
 
 	private List<Vector3> positions;
 	private List<Vector3> velocities;
@@ -15,7 +15,7 @@ public class Acceleration : MonoBehaviour {
 	public GameObject player; 
 	private int frames = 1;
 	public StreamWriter file;
-
+	
 	void Start () {
 		player = GetComponent<GameObject>();
 		positions = new List<Vector3>();
@@ -30,46 +30,45 @@ public class Acceleration : MonoBehaviour {
 	void Update () {
 		if(VRDevice.isPresent){
 			VRRecording(file);
-			frames++;
 		}
 		else{
 			PCRecording(file);
 			frames++;
 		}
 	}
-
+	
 	//gets position data from VR Device
 	void VRRecording (System.IO.StreamWriter file) {
 		positions.Add(InputTracking.GetLocalPosition(VRNode.CenterEye));
 		times.Add (Time.time);
 		CalcAcceleration(file);
+		EstimateCurveFit();
 	}
-
-
+	
+	
 	//gets position data from PC
 	void PCRecording (System.IO.StreamWriter file) {
 		positions.Add (transform.position);
 		times.Add (Time.time);
 		CalcAcceleration(file);
+		EstimateCurveFit();
 	}
-
+	
 	void CalcAcceleration(System.IO.StreamWriter file){
 		int length = positions.Count;
 		if(length > 1){
 			Vector3 posChange = positions[length - 1] - positions[length - 2];
 			velocities.Add(posChange/Time.deltaTime);
-			if(length > 3){
-				Vector3 velChange = velocities[length - 1] - velocities[length - 2];
-
+			if(length > 2){
+				Vector3 velChange = velocities[velocities.Count - 1] - velocities[velocities.Count - 2];
 				accelerations.Add(velChange/Time.deltaTime);
-
+				
 				//calculates how much of acceleration is in the local x direction (to the right)
 				Quaternion rotation = InputTracking.GetLocalRotation (VRNode.CenterEye);
 				Vector3 newRotation = rotation * transform.right;
-				sideAccelerations.Add (Vector3.Dot (accelerations[length - 1], newRotation));
-				Debug.Log (sideAccelerations[length - 1] + ", " + Time.deltaTime);
-				file.WriteLine (sideAccelerations[length - 1] + ", " + Time.time);
-
+				sideAccelerations.Add (Vector3.Dot (accelerations[accelerations.Count - 1], newRotation));
+				file.WriteLine (sideAccelerations[accelerations.Count - 1] + ", " + Time.time);
+				
 				if(length > 100){		//100 frames takes into account approximately 3 seconds at a time
 					positions.RemoveAt(0);
 					velocities.RemoveAt(0);
@@ -80,24 +79,24 @@ public class Acceleration : MonoBehaviour {
 			}
 		}
 	}
-
+	
 	//format of sine curve is Asin(Bx + C) + D
-	/*void EstimateCurveFit()
+	void EstimateCurveFit()
 	{
-		int length = positions.Count;
+		int length = sideAccelerations.Count;
 		//finding D (vertical shift)
 		float sumOfAccelerations = 0;
-		for(int i = 0; i< length; i++)
+		for(int i = 0; i < length; i++)
 		{
 			sumOfAccelerations += sideAccelerations[i];
 		}
-		float avgOfAccelerations = sumOfAccelerations / (length - 1);		//D
+		float avgOfAccelerations = sumOfAccelerations / (length);		//D
 		Debug.Log("D: " + avgOfAccelerations); 
 
 		//finding A (amplitude)
 		float rms;
 		float sumOfSquares = 0;
-		for(int i = 0; i< length; i++)
+		for(int i = 0; i < length; i++)
 		{
 			sumOfSquares += Mathf.Pow(sideAccelerations[i], 2);
 		}
@@ -107,21 +106,25 @@ public class Acceleration : MonoBehaviour {
 
 		//finding B (2 * pi / period)
 		bool accelOverRMS = false;
+		bool firstCrossFound = false;
 		int totalCrossings = 0;
 		float initialTime = 0;
 
-		while(!accelOverRMS){		//locates first crossing, going from below to above RMS + mean
+		//locates first crossing, going from below to above RMS + mean
+		if(!firstCrossFound){
 			for (int i = 0; i < length; i++)
 			{
 				if(sideAccelerations[i] > (avgOfAccelerations + rms))
 				{
 					accelOverRMS = true;
+					firstCrossFound = true;
 					totalCrossings++;
 					initialTime = times[i];
 				}
 			}
 		}
-
+		
+		bool possFinalCross = false;
 		List<float> possFinalTimes = new List<float>();
 		for(int i = 0; i < length; i++){ //counts other crossings
 			if(accelOverRMS){
@@ -134,23 +137,31 @@ public class Acceleration : MonoBehaviour {
 				if(sideAccelerations[i] > (avgOfAccelerations + rms)){
 					totalCrossings++;
 					accelOverRMS = true;
+					possFinalCross = true;
 					possFinalTimes.Add(times[i]); //crossings with the same orientation as initial crossing could be final crossings
 				}								  //after 100 iterations the last value in the array will be the final crossing time
 			}
 		}
-		float finalTime = possFinalTimes[possFinalTimes.Count - 1];
-		float period = (2.0f * (finalTime - initialTime) / (totalCrossings - 1));
-		float periodCoefficient = Mathf.PI / period;		//B
-		Debug.Log ("B: " + periodCoefficient);
+		float finalTime;
+		float period;
+		if(possFinalTimes.Count > 0 && possFinalCross){
+			finalTime = possFinalTimes[possFinalTimes.Count - 1];
+			period = (2.0f * (finalTime - initialTime) / (totalCrossings - 1));
+			float periodCoefficient = Mathf.PI / period;
+			Debug.Log ("B: " + periodCoefficient);
+		}
+
+				//B
+
 
 		//finding C (horizontal shift)
 
 
-	}*/
-
+	}
+	
 	void OnApplicationQuit(){
 		file.Close ();
 	}
-
-
+	
+	
 }
