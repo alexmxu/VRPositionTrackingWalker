@@ -1,0 +1,4062 @@
+Initialize engine version: 5.1.1f1 (2046fc06d4d8)
+[VRDevice] Successfully created device oculus.
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.123 seconds
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\admin\Desktop\PUT UNITY BUILDS HERE\week 1\group 4\WalkingInPlace\walkinginplace0730(1)_Data\Managed\System.dll (this message is harmless)
+[CAPI] LibOVR module is located at C:\Windows\system32\LibOVRRT64_0_6.dll
+
+ 
+(Filename:  Line: 46)
+
+A: 0B: 0C: 0D: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[System.Single].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at Acceleration.getVelocity () [0x00000] in <filename unknown>:0 
+  at Acceleration.movePlayer () [0x00000] in <filename unknown>:0 
+  at Acceleration.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: c24 -> priority: 1 
+A: NaNB: 0C: 0D: NaN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[System.Single].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at Acceleration.getVelocity () [0x00000] in <filename unknown>:0 
+  at Acceleration.movePlayer () [0x00000] in <filename unknown>:0 
+  at Acceleration.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+A: NaNB: 0C: 0D: NaN
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -3.363557
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+A: 4.756788B: 0C: 0D: -3.363557
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 3262.559
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+A: 3262.561B: 0C: 0D: 1629.598
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -2376.28
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 3295.554B: InfinityC: -InfinityD: 294.3051
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 5.135587
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 2854.035B: InfinityC: -InfinityD: 222.0127
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -4.847675
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 2552.729B: InfinityC: -InfinityD: 176.6406
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 4.353325
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 2330.313B: InfinityC: -InfinityD: 147.9261
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 552.1856
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 2177.547B: InfinityC: -InfinityD: 205.6775
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -212.3349
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 2039.674B: InfinityC: -InfinityD: 153.4259
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.08851694
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1923.023B: InfinityC: -InfinityD: 136.3884
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.1681429
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1824.339B: InfinityC: -InfinityD: 122.7328
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.1122083
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1739.439B: InfinityC: -InfinityD: 111.5854
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 866.7434
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1702.563B: InfinityC: -InfinityD: 174.5153
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -871.405
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1671.096B: InfinityC: -InfinityD: 94.05985
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 2.215454
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1610.309B: InfinityC: -InfinityD: 87.49953
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 3.211026
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1555.707B: InfinityC: -InfinityD: 81.8803
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.9863932
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1506.307B: InfinityC: -InfinityD: 76.82444
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 2.343926
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1461.332B: InfinityC: -InfinityD: 72.44323
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.4218782
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1420.16B: InfinityC: -InfinityD: 68.44205
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 1.407353
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1382.282B: InfinityC: -InfinityD: 64.9139
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.1578013
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1347.282B: InfinityC: -InfinityD: 61.66032
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 4.058609
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1314.813B: InfinityC: -InfinityD: 58.91738
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -2.792571
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1284.584B: InfinityC: -InfinityD: 56.11238
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.3128875
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1256.348B: InfinityC: -InfinityD: 53.68631
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2075987
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1229.895B: InfinityC: -InfinityD: 51.44073
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.5950903
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1205.046B: InfinityC: -InfinityD: 49.40691
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.860668
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1181.645B: InfinityC: -InfinityD: 47.53974
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -17.68804
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1159.566B: 0.7853982C: -7.853982D: 45.1239
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 6.588644
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1138.673B: 0.7853982C: -7.853982D: 43.74764
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.06630565
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1118.868B: 0.7853982C: -7.853982D: 42.23682
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.08406335
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1100.063B: 0.7853982C: -7.853982D: 40.82612
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 153.8588
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1082.88B: 0.7853982C: -7.853982D: 44.47233
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -150.0612
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1066.485B: 0.7853982C: -7.853982D: 38.39316
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.0513541
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1050.202B: 0.7853982C: -7.853982D: 37.22818
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2514528
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1034.643B: 0.7853982C: -7.853982D: 36.12583
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.3586669
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1019.755B: 0.7853982C: -7.853982D: 35.08342
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.5329521
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 1005.492B: 0.7853982C: -7.853982D: 34.09407
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.6893579
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 991.8112B: 0.7853982C: -7.853982D: 33.15398
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.5322252
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 978.6741B: 0.7853982C: -7.853982D: 32.26751
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.7269561
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 966.0454B: 0.7853982C: -7.853982D: 31.42149
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.6703482
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 953.8935B: 0.7853982C: -7.853982D: 30.6192
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.008560441
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 942.1888B: 0.7853982C: -7.853982D: 29.87218
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.1732682
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 930.9047B: 0.7853982C: -7.853982D: 29.16506
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.05420397
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 920.0166B: 0.7853982C: -7.853982D: 28.48554
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.1060539
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 909.5018B: 0.7853982C: -7.853982D: 27.84056
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.01713889
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 899.3394B: 0.7853982C: -7.853982D: 27.22226
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.0899222
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 889.5103B: 0.7853982C: -7.853982D: 26.62851
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.09026216
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 879.9965B: 0.7853982C: -7.853982D: 26.06387
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.08888732
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 870.7816B: 0.7853982C: -7.853982D: 25.52272
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.0161157
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 861.8502B: 0.7853982C: -7.853982D: 25.00218
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.06121674
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 853.1883B: 0.7853982C: -7.853982D: 24.50336
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.1570368
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 844.7823B: 0.7853982C: -7.853982D: 24.02598
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.1570107
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 836.6199B: 0.7853982C: -7.853982D: 23.56092
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.1755541
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 828.6897B: 0.7853982C: -7.853982D: 23.11306
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2046936
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 820.9808B: 0.7853982C: -7.853982D: 22.68125
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.05747785
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 813.4831B: 0.7853982C: -7.853982D: 22.26991
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.1955958
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 806.1871B: 0.7853982C: -7.853982D: 21.86874
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2299031
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 799.084B: 0.7853982C: -7.853982D: 21.48105
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.2295734
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 792.1655B: 0.7853982C: -7.853982D: 21.11465
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.5487745
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 785.4235B: 0.7853982C: -7.853982D: 20.74747
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.1248064
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 778.8508B: 0.7853982C: -7.853982D: 20.40376
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.2765158
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 772.4404B: 0.7853982C: -7.853982D: 20.0738
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.6082787
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 766.1857B: 0.7853982C: -7.853982D: 19.74022
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.3142449
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 760.0806B: 0.7853982C: -7.853982D: 19.43187
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.07202294
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 754.119B: 0.7853982C: -7.853982D: 19.12712
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.05629152
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 748.2956B: 1.099557C: -11.30973D: 18.83372
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.07104921
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 742.605B: 1.099557C: -11.30973D: 18.54729
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.09778573
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 737.0424B: 1.099557C: -11.30973D: 18.269
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2101072
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 731.6028B: 1.099557C: -11.30973D: 17.99725
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.07632689
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 726.2821B: 1.099557C: -11.30973D: 17.73753
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.1857879
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 721.0757B: 1.099557C: -11.30973D: 17.48148
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2721393
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 715.9797B: 1.099557C: -11.30973D: 17.23143
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.4924532
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 710.9902B: 1.099557C: -11.30973D: 16.99894
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.2311124
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 706.1036B: 1.099557C: -11.30973D: 16.76925
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2683998
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 701.3164B: 1.099557C: -11.30973D: 16.53901
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.002590846
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 696.6253B: 1.099557C: -11.30973D: 16.31852
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.0541916
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 692.027B: 1.099557C: -11.30973D: 16.10309
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2262889
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 687.5187B: 1.099557C: -11.30973D: 15.89102
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.194314
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 683.0973B: 1.099557C: -11.30973D: 15.68978
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.4925559
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 678.7601B: 1.099557C: -11.30973D: 15.49741
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.9944215
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 674.5045B: 1.099557C: -11.30973D: 15.29126
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.5783041
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 670.328B: 1.099557C: -11.30973D: 15.10962
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.3594759
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 666.2281B: 1.099557C: -11.30973D: 14.92974
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2002591
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 662.2025B: 1.099557C: -11.30973D: 14.74745
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.3001665
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 658.249B: 1.099557C: -11.30973D: 14.57546
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.1074011
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 654.3655B: 1.099557C: -11.30973D: 14.40525
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.03760108
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 650.55B: 1.099557C: -11.30973D: 14.23731
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.4761149
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 646.8004B: 1.099557C: -11.30973D: 14.07913
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.6325021
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 643.1149B: 1.099557C: -11.30973D: 13.92633
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.004948663
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 639.4916B: 1.099557C: -11.30973D: 13.7698
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.399862
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 635.929B: 1.099557C: -11.30973D: 13.60125
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.155243
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 632.4253B: 1.099557C: -11.30973D: 13.45349
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.621901
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 628.9788B: 1.099557C: -11.30973D: 13.30049
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.6452625
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 625.588B: 1.099557C: -11.30973D: 13.15054
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.5285182
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 622.2515B: 1.099557C: -11.30973D: 13.00502
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.2443825
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 618.9678B: 1.099557C: -11.30973D: 12.86555
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.6129828
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 615.7356B: 1.099557C: -11.30973D: 12.73792
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.04226992
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 612.5535B: 1.099557C: -11.30973D: 12.60704
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.8105035
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 609.4202B: 1.099557C: -11.30973D: 12.48666
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.5283437
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 609.42B: 0.7853982C: -7.068583D: 12.5156
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.616186
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 392.6356B: 1.570796C: -13.35177D: -20.79232
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -2.448011
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 197.2914B: 0.4581489C: -11.58462D: 3.430471
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.521483
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 197.2901B: 0.4581489C: -11.12647D: 3.362541
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.244871
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 197.289B: 0.4581489C: -10.66833D: 3.399304
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.776722
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 197.2882B: 0.3272492C: -7.068583D: 3.336753
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.580056
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 180.8315B: 0.4133675C: -8.722054D: -2.313918
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -2.952481
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 178.2697B: 0.4133675C: -8.308686D: -0.177362
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.414565
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 178.2698B: 0.4133675C: -7.895319D: -0.1926994
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 1.376719
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 178.2699B: 0.4133675C: -7.481951D: -0.176936
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 4.821268
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 178.2713B: 0.2480205C: -3.926991D: -0.1288842
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.09739324
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 128.2542B: InfinityC: -InfinityD: -8.972207
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.178139
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 30.85942B: InfinityC: -InfinityD: -0.09234524
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -1.621438
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 30.85867B: InfinityC: -InfinityD: -0.1314972
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: -0.5331813
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 30.85535B: InfinityC: -InfinityD: -0.1697034
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 2.737775
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 30.85751B: InfinityC: -InfinityD: -0.1518321
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 1.092681
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+A: 30.85608B: InfinityC: -InfinityD: -0.1646
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+SideAcceleration: 0.5662695
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
+Infinity or nan floating point numbers appear when calculating matrices for collider.
+ 
+(Filename:  Line: 160)
+
