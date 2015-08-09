@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System;
 
-public class Acceleration : MonoBehaviour {
+public class OldAcceleration : MonoBehaviour {
 	
 	private List<Vector3> positions;
 	private List<Vector3> velocities;
@@ -37,7 +37,7 @@ public class Acceleration : MonoBehaviour {
 		counter++;
 		if(VRDevice.isPresent){
 			VRRecording(file);
-
+			
 			Debug.Log("A: " + amplitude + " B: " + periodCoefficient + " C: " + horizShift2 + " D: " + avgOfAccelerations);
 		}
 		else{
@@ -48,22 +48,23 @@ public class Acceleration : MonoBehaviour {
 		
 		float A = amplitude;																		//1. make local vars for a b c d
 		float B = periodCoefficient;
-		float C = horizShift2 + B;
+		float C = horizShift2;
 		float D = avgOfAccelerations;
 		float oldError = getError (A, B, C, D);														//2. calc original error
 		EstimateCurveFit(file);																		//3. estimate
-		float newError = getError (amplitude, periodCoefficient, horizShift2 + B, avgOfAccelerations); 	//4. calc new error
+		float newError = getError (amplitude, periodCoefficient, horizShift2, avgOfAccelerations); 	//4. calc new error
 		if(oldError < newError){																	// 5. compare
 			amplitude = A;																			// if old is better reset
 			periodCoefficient = B;
 			horizShift2 = C;
 			avgOfAccelerations = D;
 		}
+		EstimateCurveFit(file);
 		gradientDescent(ref amplitude, ref periodCoefficient, ref horizShift2, ref avgOfAccelerations);
 		file.WriteLine (Time.time + ", " + amplitude + ", " + periodCoefficient + ", " + horizShift2 + ", " + avgOfAccelerations);
 		movePlayer();
 	}
-
+	
 	//gets position data from VR Device
 	void VRRecording (System.IO.StreamWriter file) {
 		positions.Add(InputTracking.GetLocalPosition(VRNode.CenterEye));
@@ -129,57 +130,51 @@ public class Acceleration : MonoBehaviour {
 		//file.WriteLine ("A: " + amplitude);
 		
 		//finding B (2 * pi / period)
+		bool accelOverRMS = false;
 		bool firstCrossFound = false;
 		int totalCrossings = 0;
 		int initialIndex = 0;
-
-		float lastCross = 0;
-
+		
 		//locates first crossing, going from below to above RMS + mean
 		if(!firstCrossFound){
 			for (int i = 0; i < length; i++)
 			{
 				if(sideAccelerations[i] > (avgOfAccelerations + rms))
 				{
+					accelOverRMS = true;
 					firstCrossFound = true;
+					totalCrossings++;
 					initialIndex = i;
-					lastCross = rms;
-					break;
-				}
-				else if(sideAccelerations[i] < (avgOfAccelerations - rms)){
-					firstCrossFound = true;
-					initialIndex = i;
-					lastCross = -rms;
 					break;
 				}
 			}
 		}
 		List<int> possFinalIndices = new List<int>();
-		for(int i = initialIndex + 1; i < length; i++){ //counts other crossings
-			if(lastCross < 0 && sideAccelerations[i] > (avgOfAccelerations + rms)){
-				totalCrossings++;
-				possFinalIndices.Add(i);
-				lastCross *=-1;
+		for(int i = 0; i < length; i++){ //counts other crossings
+			if(accelOverRMS){
+				if(sideAccelerations[i] < (avgOfAccelerations + rms)){
+					totalCrossings++;
+					accelOverRMS = false;
+				}
 			}
-			else if(lastCross > 0 && sideAccelerations[i] < (avgOfAccelerations - rms)){
-				totalCrossings++;
-				lastCross *=-1;
-				possFinalIndices.Add(i); 	 
+			else if(!accelOverRMS){
+				if(sideAccelerations[i] > (avgOfAccelerations + rms)){
+					totalCrossings++;
+					accelOverRMS = true;
+					possFinalIndices.Add(i); 	  //crossings with the same orientation as initial crossing could be final crossings
+				}								  //after 100 iterations the last value in the array will be the final crossing time
 			}
 		}
 		int finalIndex;
 		float period;
 		if(possFinalIndices.Count > 0 && totalCrossings > 2){
 			finalIndex = possFinalIndices[possFinalIndices.Count - 1];
-			period = ((float)(finalIndex - initialIndex) / (totalCrossings - 1));
+			period = (2.0f * (float)(finalIndex - initialIndex) / (totalCrossings - 1));
 			periodCoefficient = Mathf.PI / period;		//B
 			//file.WriteLine ("B: " + periodCoefficient);
 			//finding C (horizontal shift)
 			//float horizShift = Mathf.Asin((sideAccelerations[initialIndex] - avgOfAccelerations) / amplitude) - (periodCoefficient * initialIndex);		//C
 			horizShift2 =(Mathf.PI * -(finalIndex) / period) + Mathf.PI / 4.0f;
-			if (lastCross < 0) {
-				horizShift2 += Mathf.PI;
-			}
 		}
 	}
 	float getError(float A, float B, float C, float D){
@@ -199,7 +194,7 @@ public class Acceleration : MonoBehaviour {
 			float dB = B * delta * 0.1f;
 			float dC = Mathf.PI * delta * 0.4f;
 			float dD = rms * delta * 0.1f;
-
+			
 			float gA = getError (A + dA, B, C, D) - getError(A - dA, B, C, D);
 			float gB = getError (A, B + dB, C, D) - getError(A, B - dB, C, D);
 			float gC = getError (A, B, C + dC, D) - getError(A, B, C - dC, D);
@@ -228,7 +223,7 @@ public class Acceleration : MonoBehaviour {
 		if(velocity > 15.0f){
 			velocity = 0.25f;
 		}
-
+		
 		
 		Debug.Log ("Velocity: " + velocity);
 		return velocity;
@@ -237,7 +232,7 @@ public class Acceleration : MonoBehaviour {
 	void movePlayer(){
 		float velocity = getVelocity ();
 		if(VRDevice.isPresent){
-			Quaternion localRotation = InputTracking.GetLocalRotation(VRNode.CenterEye);
+			Quaternion localRotation = InputTracking.GetLocalRotation (VRNode.CenterEye);
 			Vector3 lookLocal = localRotation * new Vector3(0,0,1);
 			lookLocal.y = 0;
 			lookLocal.Normalize();
@@ -245,8 +240,7 @@ public class Acceleration : MonoBehaviour {
 			Debug.Log ("Transform Vector: " + (velocity * lookLocal));
 		}
 	}
-
-
+	
 	void OnApplicationQuit(){
 		file.Close();
 	}
